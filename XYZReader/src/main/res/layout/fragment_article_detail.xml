@@ -51,6 +51,7 @@
         android:contentDescription="@string/action_share"
         android:drawable="@drawable/avd"
         app:layout_anchor="@id/photo_container"
+        android:elevation="6dp"
         app:pressedTranslationZ="12dp"
         app:layout_anchorGravity="bottom|right|end"
     />

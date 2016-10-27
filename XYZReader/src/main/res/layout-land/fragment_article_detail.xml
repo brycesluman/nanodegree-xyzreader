@@ -51,6 +51,7 @@
         android:contentDescription="@string/action_share"
         app:layout_anchor="@id/scroll_view"
         android:drawable="@drawable/avd"
+        android:elevation="6dp"
         app:pressedTranslationZ="12dp"
         app:layout_anchorGravity="bottom|right|end"
     />
