@@ -10,6 +10,7 @@
             android:fitsSystemWindows="true"
             android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
             app:expanded="true"
+            android:elevation="4dp"
         >
             <android.support.design.widget.CollapsingToolbarLayout
                 android:id="@+id/main_collapsing"
@@ -28,10 +29,6 @@
                     android:fitsSystemWindows="true"
                     android:scaleType="centerCrop"
                 />
-                <!--<android.support.v7.widget.Toolbar android:id="@+id/toolbar"-->
-                                                   <!--android:layout_width="match_parent"-->
-                                                   <!--android:layout_height="?actionBarSize"-->
-                <!--/>-->
             </android.support.design.widget.CollapsingToolbarLayout>
         </android.support.design.widget.AppBarLayout>
         <android.support.v4.widget.NestedScrollView
@@ -53,6 +50,7 @@
         android:contentDescription="@string/action_share"
         app:layout_anchor="@id/scroll_view"
         android:drawable="@drawable/avd"
+        app:pressedTranslationZ="12dp"
         app:layout_anchorGravity="top|right|end"
     />
 </android.support.design.widget.CoordinatorLayout>

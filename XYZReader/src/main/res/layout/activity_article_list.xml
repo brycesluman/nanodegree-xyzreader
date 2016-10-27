@@ -28,7 +28,7 @@
         android:layout_width="match_parent"
         android:layout_height="112dp"
         app:theme="@style/Theme.Bacon"
-        android:elevation="8dp">
+        android:elevation="4dp">
 
         <android.support.v7.widget.Toolbar
             android:id="@+id/toolbar"
