@@ -38,6 +38,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="?actionBarSize"
             android:elevation="5dp"
+            android:transitionGroup="true"
         >
             <include layout="@layout/text_body"/>
         </android.support.v4.widget.NestedScrollView>
